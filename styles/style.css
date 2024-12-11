@@ -279,7 +279,7 @@
     flex-direction: column;
   }
   .header__theme-menu {
-    margin-top: 66.5px;
+    margin-top: 75px;
   }
   .header__bottom-text {
     max-width: 100%;
@@ -287,6 +287,10 @@
   .pics__list {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+  }
+  .pics {
+    gap: 0px;
   }
   .section__title {
     max-width: 100%;
