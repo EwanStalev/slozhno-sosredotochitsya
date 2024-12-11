@@ -283,6 +283,7 @@
   }
   .header__bottom-text {
     max-width: 100%;
+    margin-top: -3px;
   }
   .pics__list {
     display: flex;
