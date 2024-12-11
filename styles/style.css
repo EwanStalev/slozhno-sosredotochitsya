@@ -264,6 +264,9 @@
     display: flex;
     flex-direction: column;
   }
+  .section__title {
+    max-width: 236px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -284,5 +287,24 @@
   .pics__list {
     display: flex;
     flex-direction: column;
+  }
+  .section__title {
+    max-width: 100%;
+  }
+
+  .header__title {
+    line-height: 95.7px;
+  }
+  .header {
+    padding: 0px 10px;
+  }
+
+  .decorated-zone::before {
+    left: 10px;
+    bottom: 10px;
+  }
+  .decorated-zone::after {
+    right: 10px;
+    top: 10px;
   }
 }
