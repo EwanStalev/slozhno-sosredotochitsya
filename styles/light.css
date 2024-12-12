@@ -9,7 +9,7 @@
 }
 .page.theme_light .header__rec {
   opacity: 0;
-  visibility: hidden;
+  visibility:  hidden;
 }
 @media (prefers-color-scheme: light) {
   :root {
