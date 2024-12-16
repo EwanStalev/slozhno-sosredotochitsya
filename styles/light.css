@@ -6,11 +6,15 @@
   --text-bg-color: #ff8dcb;
   --border-color: #353430;
   --article-color:#353430;
+  --hover-color: #32312D66;
+  --article-text: #353430;
 }
+
 .page.theme_light .header__rec {
   opacity: 0;
-  visibility:  hidden;
+  visibility: hidden;
 }
+
 @media (prefers-color-scheme: light) {
   :root {
     --bg-color: #fff1f7;
@@ -19,8 +23,11 @@
     --text-color: #353430;
     --text-bg-color: #ff8dcb;
     --border-color: #353430;
+    --hover-color: #32312D66;
     --article-color:#353430;
+    --article-text: #353430;
   }
+
   .header__rec {
     opacity: 0;
     visibility: hidden;

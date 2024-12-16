@@ -6,11 +6,14 @@
   --text-bg-color: #ff0070;
   --border-color: #ff0070;
   --article-text: #F1B2CE;
+  --hover-color: #FF007066;
 }
+
 .page.theme_dark .header__rec {
   opacity: 1;
   visibility: visible;
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --bg-color: #000028;
@@ -20,7 +23,9 @@
     --text-bg-color: #ff0070;
     --border-color: #ff0070;
     --article-text: #F1B2CE;
+    --hover-color: #FF007066;
   }
+  
   .header__rec {
     opacity: 1;
     visibility: visible;
